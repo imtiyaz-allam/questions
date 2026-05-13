@@ -1,0 +1,20 @@
+A latch is considered to be a ________ device.|Level-triggered|Edge-triggered|Dual-triggered|Non-triggered
+Which flip-flop is specifically known as a 'Delay flip-flop'?|SR flip-flop|JK flip-flop|D flip-flop|T flip-flop
+What is the invalid or forbidden state for an SR latch?|S=0, R=0|S=0, R=1|S=1, R=0|S=1, R=1
+A JK flip-flop is in 'Toggle' mode when the inputs are:|J=0, K=0|J=1, K=0|J=0, K=1|J=1, K=1
+How many stable states does a flip-flop or a latch have?|Zero|One|Two|Three
+Which configuration is primarily used to eliminate the race-around condition in JK flip-flops?|Master-Slave configuration|Using only NOR gates|Reducing the clock frequency|Increasing the supply voltage
+What is the characteristic equation of a D flip-flop?|Q(next) = D|Q(next) = D'|Q(next) = Q|Q(next) = 0
+A T flip-flop can be constructed by connecting the J and K inputs of a JK flip-flop together.|True|False|Only if using NAND gates|Only if using NOR gates
+What is the minimum number of NAND gates required to implement a basic SR latch?|1|2|3|4
+In a transparent latch, the output follows the input when the enable signal is:|Low|High|At a rising edge|At a falling edge
+The minimum time for which the input signal must be stable before the clock trigger is called:|Hold time|Propagation delay|Setup time|Rise time
+A flip-flop is a basic building block of ________ circuits.|Combinational|Sequential|Linear|Analog
+What is the characteristic equation of a JK flip-flop?|Q(n+1) = JQ' + K'Q|Q(n+1) = J'Q + KQ'|Q(n+1) = JQ + KQ|Q(n+1) = J'Q' + KQ
+Which asynchronous input is used to force the flip-flop output to logic 1?|Clear|Clock|Preset|Enable
+If the T input of a T flip-flop is connected to logic 1, what happens at every clock pulse?|The output stays 0|The output stays 1|The output toggles|The output remains unchanged
+Which flip-flop is most commonly used to design ripple counters?|SR flip-flop|D flip-flop|JK flip-flop|Standard Latch
+The transition from logic 0 to logic 1 in a clock pulse is specifically called the:|Falling edge|Leading edge (Positive edge)|Trailing edge|Negative edge
+What is the fundamental difference between a latch and a flip-flop?|The number of gates|Latches are level-triggered, flip-flops are edge-triggered|Latches have no feedback|Flip-flops are faster
+An SR latch built with NOR gates has its 'Hold' state when inputs are:|S=0, R=0|S=1, R=1|S=0, R=1|S=1, R=0
+How many D flip-flops are required to store an 8-bit binary word?|1|4|8|16
